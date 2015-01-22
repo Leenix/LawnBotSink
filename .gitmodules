@@ -1,0 +1,3 @@
+[submodule "SinkNode"]
+	path = SinkNode
+	url = https://github.com/Leenix/SinkNode
