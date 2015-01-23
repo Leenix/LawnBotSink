@@ -1,10 +1,11 @@
 __author__ = 'Leenix'
 
-from SinkNode.Reader.SerialReader import *
-from SinkNode.Processor.ThingspeakProcessor import *
 from SinkNode.Uploader.ThingspeakUploader import *
 
 logger_level = logging.INFO
+logger_name = "lawnbot"
+log_filename = "lawnbot.log"
+log_format = "%(asctime)s - %(levelname)s - %(message)s"
 
 # Reader Settings #########################################
 
@@ -13,8 +14,6 @@ SERIAL_BAUD = 57600
 
 PACKET_START = '#'
 PACKET_STOP = '$'
-
-reader = SerialReader(port=SERIAL_PORT, baud_rate=SERIAL_BAUD, start_delimiter=PACKET_START, stop_delimiter=PACKET_STOP)
 
 
 # Processor Settings ######################################
@@ -30,13 +29,13 @@ LAWNBOT_KEY_MAP = {
 }
 
 LAWNBOT_CHANNEL_MAP = {
-    "lawnbot1": "API KEY"
+    "lawnbot1": "API KEY",
+    "lurker1": "<API_KEY>"
 }
 
-processor = ThingspeakProcessor(key_map=LAWNBOT_KEY_MAP, channel_map=LAWNBOT_CHANNEL_MAP)
 
 
 # Uploader Settings #######################################
 
-uploader = ThingspeakUploader()
+
 
