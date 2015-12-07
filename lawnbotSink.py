@@ -31,7 +31,7 @@ file_logger = LogFileWriter(filename="lawnbot.log",
                             logger_level=logging.DEBUG,
                             writer_id="CSVLog",
                             file_time_prefix="%Y-%m %B ",
-                            timestamp_format="%Y-%m-%d, %H:%M:S,")
+                            timestamp_format="%Y-%m-%d, %H:%M:%S")
 
 # Writers
 writer_lawnbot1 = ThingspeakWriter(writer_id="lawnbot1",
