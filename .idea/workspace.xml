@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d101a861-b875-4840-8ca5-8d59fc9f76f9" name="Default" comment="SinkNode operations now work&#10;+ Solved problem with thread targets&#10;+ Processor thread was not looping, now fixed&#10;+ Default loggers are configured for each child class (could probably elevate them)">
-      <change type="DELETED" beforePath="E:\Dropbox\Projects\LawnBotSink\lawbot_settings.py" afterPath="" />
-    </list>
+    <list default="true" id="d101a861-b875-4840-8ca5-8d59fc9f76f9" name="Default" comment="SinkNode operations now work&#10;+ Solved problem with thread targets&#10;+ Processor thread was not looping, now fixed&#10;+ Default loggers are configured for each child class (could probably elevate them)" />
     <ignored path="LawnBotSink.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -45,8 +43,8 @@
       <file leaf-file-name="LawnBotSink.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LawnBotSink.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="204" max-vertical-offset="1173">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.7" vertical-offset="204" max-vertical-offset="1190">
+              <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -872,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LawnBotSink.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="204" max-vertical-offset="1173">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.7" vertical-offset="204" max-vertical-offset="1190">
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
