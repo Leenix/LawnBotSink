@@ -1,6 +1,6 @@
-__author__ = 'Leenix'
+import logging
 
-from SinkNode.Uploader.ThingspeakUploader import *
+__author__ = 'Leenix'
 
 logger_level = logging.INFO
 logger_name = "lawnbot"
@@ -29,8 +29,8 @@ LAWNBOT_KEY_MAP = {
 }
 
 LAWNBOT_CHANNEL_MAP = {
-    "lawnbot1": "API KEY",
-    "lurker1": "<API_KEY>"
+    "lawnbot1": "CKQPCVOK2U31WOAT",
+    "lurker1": "CKQPCVOK2U31WOAT"
 }
 
 
