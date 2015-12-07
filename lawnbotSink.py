@@ -6,7 +6,7 @@ from SinkNode.Writer.ThingspeakWriter import ThingspeakWriter
 from SinkNode.Writer.DweetWriter import DweetWriter
 
 
-from lawbot_settings import LAWNBOT_KEY_MAP, log_format, logger_level
+from lawnbot_settings import LAWNBOT_KEY_MAP, log_format, logger_level, SERIAL_PORT, SERIAL_BAUD
 
 
 __author__ = 'Leenix'
@@ -19,7 +19,8 @@ sh.setLevel(logger_level)
 logger.addHandler(sh)
 
 # Readers
-reader = SerialReader("COM7", 115200,
+reader = SerialReader(port=SERIAL_PORT,
+                      baud_rate=SERIAL_BAUD,
                       start_delimiter='#',
                       stop_delimiter='$',
                       logger_level=logging.INFO)

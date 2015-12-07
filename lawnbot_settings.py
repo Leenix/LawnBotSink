@@ -9,8 +9,8 @@ log_format = "%(asctime)s - %(levelname)s - %(message)s"
 
 # Reader Settings #########################################
 
-SERIAL_PORT = "COM4"
-SERIAL_BAUD = 57600
+SERIAL_PORT = "/dev/ttyUSB0"
+SERIAL_BAUD = 115200
 
 PACKET_START = '#'
 PACKET_STOP = '$'
